@@ -1,0 +1,167 @@
+*{
+
+    padding: 0px; 
+    margin: 0px;
+    }
+
+body {
+        font-family: serif; 
+        font-size: 14px;
+        Line-height: 24px;
+        height: 1800px; 
+    }
+
+h1, h2, h3, h4, h5, h6{
+        font-family: sans-serif;
+        }
+        a{
+        text-decoration: none;
+        }
+        a:hover{
+        text-decoration: none;
+    }
+
+.green{
+            width: 700px;
+            height: 400px;
+            background: green;
+            position: relative; 
+      }
+      
+.red{
+        width: 150px;
+        height: 150px;
+        background: red;
+        border-radius: 50%;
+        position: absolute;
+        top: 25%;
+        Left: 35%;
+}
+.fb{/*facebook*/
+    width: 100px;
+    position: fixed;
+    top: 22.51%;
+    right: -66px;
+    transition: 1s;
+}
+
+.fb:hover{
+    right: 4px;
+    cursor: pointer;
+}
+
+.tw{ /*twitter*/
+    width: 100px;
+    position: fixed;
+    top: 26%;
+    right: -66px;
+    transition: 1s;
+}
+
+.tw:hover{
+    right: 4px;
+    cursor: pointer;
+}
+
+.pn{
+    /*pinterest*/width: 100px;
+    position: fixed;
+    top: 29.5%;
+    right: -66px;
+    transition: 1s;
+}
+.pn:hover{
+    right: 4px;
+    cursor: pointer;
+}
+
+.in{ /* Linkedin*/
+    width: 100px;
+    position: fixed;
+    top: 33%;
+    right: -66.5px;
+    transition: 1s;
+}
+
+.in:hover{
+    right: 3px;
+    cursor: pointer;
+}
+
+.wt{
+    width: 100px;
+    position: fixed;
+    top: 36.5%;
+    right: -66px;
+    transition: 1s;
+}
+
+.wt:hover{
+    right: 3px;
+    cursor: pointer;
+}
+
+.tb{ /*tumblr*/
+    width: 100px;
+    position: fixed;
+    top: 40%;
+    right: -66px;
+    transition: 1s;
+}
+
+.tb:hover{
+    right: 3px;
+    cursor: pointer;
+}
+.em{
+    /*tumblr*/width: 140px;
+    position: fixed;
+    top: 43.5%;
+    right: -103px;
+    transition: 1s;
+    
+}
+
+.em:hover{
+    right: 3px;
+    cursor: pointer;
+}
+ /*social icon show*/
+.social-icons{
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 50px 0px 0px;
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline-block;
+}
+
+.social-icons a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    text-align: center;
+    background: #ffb703;
+    margin: 0px 5px;
+    color: #9d0208;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.social-icons a:hover{
+    background: #3a86ff;
+    color: #ffe8d6;
+}
+.n{
+    color: #6b705c;
+    text-align: center;
+}
+
+.a{
+    text-align: center;
+}
